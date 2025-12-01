@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@poster-parler/database": ["libs/database/src/index.ts"],
+      "@poster-parler/inventory": ["libs/inventory/src/index.ts"],
+      "@poster-parler/orders": ["libs/orders/src/index.ts"],
+      "@poster-parler/utils": ["libs/utils/src/index.ts"],
+      "@poster-parler/logger": ["libs/logger/src/index.ts"],
+      "@poster-parler/common": ["libs/common/src/index.ts"],
+      "@poster-parler/config": ["libs/config/src/index.ts"],
+      "@poster-parler/auth": ["libs/auth/src/index.ts"],
+      "@poster-parler/models": ["libs/models/src/index.ts"],
+      "@poster-parler/review": ["libs/review/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
