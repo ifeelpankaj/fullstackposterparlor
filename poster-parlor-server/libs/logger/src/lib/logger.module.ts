@@ -1,32 +1,12 @@
-import { Module, Global, DynamicModule } from '@nestjs/common';
-import { LoggerService } from './logger.service';
-import { LoggerConfig } from './logger.config';
+import { Global, Module } from '@nestjs/common';
+import { WinstonModule } from 'nest-winston';
+import { loggerConfig } from './logger.config';
+import { AppLogger } from './logger.service';
 
-export interface LoggerModuleOptions {
-  serviceName?: string;
-  logsDir?: string;
-  maxFileSize?: number;
-  maxFiles?: number;
-  enableConsole?: boolean;
-  enableSensitiveDataMasking?: boolean;
-}
-
-@Global()
-@Module({})
-export class LoggerModule {
-  static forRoot(options?: LoggerModuleOptions): DynamicModule {
-    const config = new LoggerConfig(options);
-
-    return {
-      module: LoggerModule,
-      providers: [
-        {
-          provide: 'LOGGER_CONFIG',
-          useValue: config,
-        },
-        LoggerService,
-      ],
-      exports: [LoggerService],
-    };
-  }
-}
+@Global() // Make it global so you don't need to import everywhere
+@Module({
+  imports: [WinstonModule.forRoot(loggerConfig)],
+  providers: [AppLogger],
+  exports: [AppLogger, WinstonModule],
+})
+export class LoggerModule {}

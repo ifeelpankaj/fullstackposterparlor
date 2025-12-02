@@ -16,7 +16,7 @@ npx create-nx-workspace poster-parler --preset=nest
 ### 2. Generate Libraries
 
 ```bash
-npx nx g @nx/nest:lib libs/auth
+npx nx g @nx/nest:lib libs/auth --linter=eslint --unitTestRunner=jest
 npx nx g @nx/nest:lib libs/database --linter=eslint --unitTestRunner=jest
 npx nx g @nx/nest:lib libs/users --linter=eslint --unitTestRunner=jest
 npx nx g @nx/nest:lib libs/inventory --linter=eslint --unitTestRunner=jest
@@ -42,19 +42,16 @@ npx nx g @nx/nest:lib libs/config --linter=eslint --unitTestRunner=jest
 libs/
   ├── admin/
   ├── auth/
-  ├── users/
   ├── inventory/
   ├── orders/
-  ├── payments/
   ├── utils/
   ├── database/
-  ├── exceptions/
   ├── interceptors/
-  ├── health/
   ├── config/
   ├── common/
-  ├── logger/
-  └── cache/
+  ├── review/
+  ├── models/
+  └── logger/
 ```
 
 ---

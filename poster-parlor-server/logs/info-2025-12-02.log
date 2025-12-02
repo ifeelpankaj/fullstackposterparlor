@@ -1,0 +1,1245 @@
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:38:24","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:39:13","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:39:31","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:39:34","level":"ERROR","message":"✗ GET /api/v1/test 404 - Cannot GET /api/v1/test","context":"HTTP","error":{"name":"NotFoundException","message":"Cannot GET /api/v1/test"},"trace":"NotFoundException: Cannot GET /api/v1/test\n    at callback (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\core\\router\\routes-resolver.js:77:19)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:23\n    at Layer.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\index.js:342:13)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\index.js:297:9\n    at processParams (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\index.js:291:5)\n    at urlencodedParser (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\body-parser\\lib\\types\\urlencoded.js:68:7)\n    at Layer.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\lib\\layer.js:152:17)\n    at trimPrefix (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\router\\index.js:342:13)","statusCode":404,"errorCode":"NOT_FOUND","method":"GET","url":"/api/v1/test","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:41:04","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:42:20","level":"ERROR","message":"✗ GET /api/v1 500 - Internal server error","context":"HTTP","error":{"name":"Error","message":"Unknown authentication strategy \"jwt\""},"trace":"Error: Unknown authentication strategy \"jwt\"\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:193:39)\n    at authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at new Promise (<anonymous>)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:80:83\n    at JwtAuthGuard.canActivate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:32)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","statusCode":500,"errorCode":"INTERNAL_ERROR","method":"GET","url":"/api/v1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:42:58","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:43:00","level":"ERROR","message":"✗ GET /api/v1 401 - Invalid or expired token","context":"HTTP","error":{"name":"UnauthorizedException","message":"Invalid or expired token"},"trace":"UnauthorizedException: Invalid or expired token\n    at JwtAuthGuard.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\auth\\src\\guards\\jwt-auth.guard.ts:35:20)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:124\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:83:24\n    at allFailed (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:110:18)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:183:28)\n    at JwtStrategy.strategy.fail (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:314:9)\n    at JwtStrategy.authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport-jwt\\lib\\strategy.js:96:21)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n    at authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3","statusCode":401,"errorCode":"UNAUTHORIZED","method":"GET","url":"/api/v1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 11:43:00","level":"INFO","message":"Unauthorized access attempt: /api/v1","context":"HTTP","ip":"::1","url":"/api/v1"}
+{"@timestamp":"02 Dec 2025 11:43:03","level":"ERROR","message":"✗ GET /api/v1 401 - Invalid or expired token","context":"HTTP","error":{"name":"UnauthorizedException","message":"Invalid or expired token"},"trace":"UnauthorizedException: Invalid or expired token\n    at JwtAuthGuard.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\auth\\src\\guards\\jwt-auth.guard.ts:35:20)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:124\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:83:24\n    at allFailed (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:110:18)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:183:28)\n    at JwtStrategy.strategy.fail (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:314:9)\n    at JwtStrategy.authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport-jwt\\lib\\strategy.js:96:21)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n    at authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3","statusCode":401,"errorCode":"UNAUTHORIZED","method":"GET","url":"/api/v1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 11:43:03","level":"INFO","message":"Unauthorized access attempt: /api/v1","context":"HTTP","ip":"::1","url":"/api/v1"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:43:26","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:44:50","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:44:55","level":"ERROR","message":"✗ GET /api/v1 401 - Invalid or expired token","context":"HTTP","error":{"name":"UnauthorizedException","message":"Invalid or expired token"},"trace":"UnauthorizedException: Invalid or expired token\n    at JwtAuthGuard.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\auth\\src\\guards\\jwt-auth.guard.ts:35:20)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:124\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:83:24\n    at allFailed (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:110:18)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:183:28)\n    at JwtStrategy.strategy.fail (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:314:9)\n    at JwtStrategy.authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport-jwt\\lib\\strategy.js:96:21)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n    at authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3","statusCode":401,"errorCode":"UNAUTHORIZED","method":"GET","url":"/api/v1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:45:28","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:45:58","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:46:01","level":"INFO","message":"✓ GET /api/v1 200 - 6ms","context":"HTTP","method":"GET","url":"/api/v1","statusCode":200,"duration":"6ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36","controller":"AppController","handler":"getData"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:46:35","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:49:46","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:50:20","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:50:47","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:51:04","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:51:31","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:51:34","level":"INFO","message":"✗ GET /api/v1 401 - Invalid or expired token","context":"HTTP","statusCode":401,"errorCode":"UNAUTHORIZED","method":"GET","url":"/api/v1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:52:48","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:54:02","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:54:09","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 113ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"113ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 11:54:09","level":"INFO","message":"✓ GET /api/v1/inventory?page=1&limit=12 200 - 41ms","context":"HTTP","method":"GET","url":"/api/v1/inventory?page=1&limit=12","statusCode":200,"duration":"41ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllInventory"}
+{"@timestamp":"02 Dec 2025 11:54:09","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 10ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"10ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 11:54:09","level":"INFO","message":"✓ GET /api/v1/inventory/featured 200 - 51ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/featured","statusCode":200,"duration":"51ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getFeaturedPosters"}
+{"@timestamp":"02 Dec 2025 11:54:35","level":"INFO","message":"✓ GET /api/v1/inventory?page=1&limit=12 200 - 20ms","context":"HTTP","method":"GET","url":"/api/v1/inventory?page=1&limit=12","statusCode":200,"duration":"20ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllInventory"}
+{"@timestamp":"02 Dec 2025 11:54:35","level":"INFO","message":"✓ GET /api/v1/inventory?page=1&limit=12&category=anime 200 - 18ms","context":"HTTP","method":"GET","url":"/api/v1/inventory?page=1&limit=12&category=anime","statusCode":200,"duration":"18ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllInventory"}
+{"@timestamp":"02 Dec 2025 11:55:06","level":"INFO","message":"✓ GET /api/v1/inventory/692bf6ec109eddad3225302b 200 - 26ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/692bf6ec109eddad3225302b","statusCode":200,"duration":"26ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getInventoryItemById"}
+{"@timestamp":"02 Dec 2025 11:55:34","level":"INFO","message":"✓ POST /api/v1/auth/google/login 200 - 501ms","context":"HTTP","method":"POST","url":"/api/v1/auth/google/login","statusCode":200,"duration":"501ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"GoogleAuthController","handler":"googleLogin"}
+{"@timestamp":"02 Dec 2025 11:55:42","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 7ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"7ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 11:55:53","level":"INFO","message":"✓ POST /api/v1/auth/google/login 200 - 16ms","context":"HTTP","method":"POST","url":"/api/v1/auth/google/login","statusCode":200,"duration":"16ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"GoogleAuthController","handler":"googleLogin"}
+{"@timestamp":"02 Dec 2025 11:56:14","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 6ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"6ms","ip":"::1","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 11:56:21","level":"INFO","message":"Received SIGINT, closing application gracefully...","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:56:56","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:57:22","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 11:58:05","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:00:50","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:01:16","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:01:18","level":"ERROR","message":"✗ GET /api/v1 401 - Invalid or expired token","context":"HTTP","error":{"name":"Error","message":"UnauthorizedException: Invalid or expired token\n    at JwtAuthGuard.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\auth\\src\\guards\\jwt-auth.guard.ts:35:20)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:124\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:83:24\n    at allFailed (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:110:18)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:183:28)\n    at JwtStrategy.strategy.fail (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:314:9)\n    at JwtStrategy.authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport-jwt\\lib\\strategy.js:96:21)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n    at authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3"},"trace":"Error: UnauthorizedException: Invalid or expired token\n    at JwtAuthGuard.handleRequest (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\auth\\src\\guards\\jwt-auth.guard.ts:35:20)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:44:124\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:83:24\n    at allFailed (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:110:18)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:183:28)\n    at JwtStrategy.strategy.fail (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:314:9)\n    at JwtStrategy.authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport-jwt\\lib\\strategy.js:96:21)\n    at attempt (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:378:16)\n    at authenticate (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\passport\\lib\\middleware\\authenticate.js:379:7)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\passport\\dist\\auth.guard.js:88:3\n    at GlobalExceptionFilter.logError (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\utils\\src\\lib\\filters\\global-exception.filter.ts:302:17)\n    at GlobalExceptionFilter.catch (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\libs\\utils\\src\\lib\\filters\\global-exception.filter.ts:67:10)\n    at ExceptionsHandler.invokeCustomFilters (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\core\\exceptions\\exceptions-handler.js:30:26)\n    at ExceptionsHandler.next (C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\core\\exceptions\\exceptions-handler.js:14:18)\n    at C:\\Users\\ifeel\\OneDrive\\Documents\\Codes\\poster-parlor\\poster-parlor-server\\node_modules\\@nestjs\\core\\router\\router-proxy.js:13:35\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","statusCode":401,"errorCode":"UNAUTHORIZED","method":"GET","url":"/api/v1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:02:51","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:03:35","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:05:00","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:05:46","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Database connection established","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Starting Nest application...","context":"NestFactory"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"PassportModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"WinstonModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"ConfigHostModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"AppModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"LoggerModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"ConfigModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"JwtModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"MongooseCoreModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"MongooseModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"DataAccessModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"InventoryModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"OrdersModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"ReviewModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"AuthModule dependencies initialized","context":"InstanceLoader"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"AppController {/api/v1}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"GoogleAuthController {/api/v1/auth/google}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/auth/google/login, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/auth/google/refresh, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/auth/google/logout, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/auth/google/me, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"InventoryController {/api/v1/inventory}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/featured, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/search, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/categories/list, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/inventory/:id/hard, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"ReviewController {/api/v1/review}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/review/:id, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/review/:id, PUT} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/review/:id, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/review/:id, DELETE} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"OrdersController {/api/v1/order}:","context":"RoutesResolver"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/order, POST} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Mapped {/api/v1/order, GET} route","context":"RouterExplorer"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Database already connected","context":"DatabaseHealthService"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Nest application successfully started","context":"NestApplication"}
+{"@timestamp":"02 Dec 2025 12:07:35","level":"INFO","message":"Application is running on: http://localhost:4000/api/v1 {Environment: development}","context":"Bootstrap"}
+{"@timestamp":"02 Dec 2025 12:08:07","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 128ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"128ms","ip":"::1","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 12:08:09","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 22ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"22ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 12:08:09","level":"INFO","message":"✓ GET /api/v1/inventory?page=1&limit=12 200 - 26ms","context":"HTTP","method":"GET","url":"/api/v1/inventory?page=1&limit=12","statusCode":200,"duration":"26ms","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllInventory"}
+{"@timestamp":"02 Dec 2025 12:08:37","level":"INFO","message":"✓ GET /api/v1/inventory/categories/list 200 - 15ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/categories/list","statusCode":200,"duration":"15ms","ip":"::1","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getAllFilters"}
+{"@timestamp":"02 Dec 2025 12:08:37","level":"INFO","message":"✓ GET /api/v1/inventory/featured 200 - 11ms","context":"HTTP","method":"GET","url":"/api/v1/inventory/featured","statusCode":200,"duration":"11ms","ip":"::1","userAgent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36 Edg/142.0.0.0","controller":"InventoryController","handler":"getFeaturedPosters"}

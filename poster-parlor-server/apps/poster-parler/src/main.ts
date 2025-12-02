@@ -10,15 +10,14 @@ import {
   ResponseInterceptor,
 } from '@poster-parler/utils';
 import { JwtAuthGuard } from '@poster-parler/auth';
-import { LoggerService } from '@poster-parler/logger';
+import { AppLogger } from '@poster-parler/logger';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule, {
     bufferLogs: true, // Buffer logs until logger is ready
   });
-
-  // Get logger service and set it as the application logger
-  const logger = app.get(LoggerService);
+  // Get the logger instance and use it globally
+  const logger = app.get(AppLogger);
   logger.setContext('Bootstrap');
   app.useLogger(logger);
 
@@ -45,7 +44,7 @@ async function bootstrap() {
     })
   );
 
-  // Global filters and interceptors (inject logger)
+  // // Global filters and interceptors (inject logger)
   app.useGlobalFilters(new GlobalExceptionFilter(logger));
   app.useGlobalInterceptors(new ResponseInterceptor(logger));
 
@@ -53,7 +52,7 @@ async function bootstrap() {
   const reflector = app.get(Reflector);
   app.useGlobalGuards(new JwtAuthGuard(reflector));
 
-  // Database health check
+  // // Database health check
   const db = app.get(DatabaseHealthService);
   await db.onModuleInit();
 

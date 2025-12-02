@@ -10,13 +10,7 @@ import { LoggerModule } from '@poster-parler/logger';
 import { OrdersModule } from '@poster-parler/orders';
 @Module({
   imports: [
-    LoggerModule.forRoot({
-      serviceName: 'poster-parler-api',
-      enableSensitiveDataMasking: true,
-      logsDir: 'logs',
-      maxFileSize: 10485760, // 10MB
-      maxFiles: 10,
-    }),
+    LoggerModule,
     ConfigModule.forRoot({ isGlobal: true }),
     DataAccessModule,
     AuthModule,

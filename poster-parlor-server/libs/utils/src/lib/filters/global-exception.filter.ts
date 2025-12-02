@@ -5,43 +5,73 @@ import {
   ArgumentsHost,
   HttpException,
   HttpStatus,
-  Inject,
 } from '@nestjs/common';
 import { Request, Response } from 'express';
 import { MongoError, MongoServerError } from 'mongodb';
 import { Error as MongooseError } from 'mongoose';
-import { LoggerService } from '@poster-parler/logger';
-import { ErrorResponse, ValidationError } from '@poster-parler/common';
+import { AppLogger } from '@poster-parler/logger';
+
+export interface ErrorResponse {
+  success: boolean;
+  message: string;
+  error: {
+    code: string;
+    details?: any;
+    validationErrors?: ValidationError[];
+  };
+  statusCode: number;
+  timestamp: string;
+  path: string;
+}
+
+export interface ValidationError {
+  field: string;
+  message: string;
+}
 
 @Catch()
 export class GlobalExceptionFilter implements ExceptionFilter {
-  constructor(@Inject(LoggerService) private readonly logger: LoggerService) {
-    this.logger.setContext(GlobalExceptionFilter.name);
+  constructor(private readonly logger: AppLogger) {
+    this.logger.setContext('HTTP');
   }
 
   catch(exception: unknown, host: ArgumentsHost) {
     const ctx = host.switchToHttp();
     const response = ctx.getResponse<Response>();
     const request = ctx.getRequest<Request>();
-    const path = request.url;
+    const { method, url, ip, headers } = request;
+    const user = (request as any).user;
 
     let errorResponse: ErrorResponse;
 
     // Handle different types of exceptions
     if (exception instanceof HttpException) {
-      errorResponse = this.handleHttpException(exception, path);
+      errorResponse = this.handleHttpException(exception, url);
     } else if (this.isMongoError(exception)) {
-      errorResponse = this.handleMongoError(exception as any, path);
+      errorResponse = this.handleMongoError(exception as any, url);
     } else if (exception instanceof MongooseError.ValidationError) {
-      errorResponse = this.handleMongooseValidationError(exception, path);
+      errorResponse = this.handleMongooseValidationError(exception, url);
     } else if (exception instanceof MongooseError.CastError) {
-      errorResponse = this.handleMongoCastError(exception, path);
+      errorResponse = this.handleMongoCastError(exception, url);
     } else {
-      errorResponse = this.handleGenericError(exception, path);
+      errorResponse = this.handleGenericError(exception, url);
     }
 
-    // Simple, informative error log
-    this.logError(exception, request, errorResponse);
+    // Add request ID header if present
+    const requestId = (request as any).id;
+    if (requestId) {
+      response.setHeader('X-Request-ID', requestId);
+    }
+
+    // Log error with proper context
+    this.logError(exception, errorResponse, {
+      method,
+      url,
+      userId: user?.id || user?.sub,
+      ip: (headers['x-forwarded-for'] as string) || ip,
+      userAgent: headers['user-agent'] || 'unknown',
+      requestId,
+    });
 
     response.status(errorResponse.statusCode).json(errorResponse);
   }
@@ -65,7 +95,7 @@ export class GlobalExceptionFilter implements ExceptionFilter {
 
     let message = 'An error occurred';
     let validationErrors: ValidationError[] = [];
-    let details: any = null;
+    let details: any = undefined;
 
     if (typeof exceptionResponse === 'string') {
       message = exceptionResponse;
@@ -89,7 +119,7 @@ export class GlobalExceptionFilter implements ExceptionFilter {
       message,
       error: {
         code: this.getErrorCode(status),
-        details,
+        ...(details && { details }),
         ...(validationErrors.length > 0 && { validationErrors }),
       },
       statusCode: status,
@@ -142,9 +172,8 @@ export class GlobalExceptionFilter implements ExceptionFilter {
       const dupKeyMatch = exception.message?.match(/dup key: \{ (\w+):/);
       if (dupKeyMatch) return dupKeyMatch[1];
     } catch (e) {
-      this.logger.warn('Could not extract duplicate field name', {
-        error: e instanceof Error ? e.message : 'unknown',
-      });
+      // Silent fail
+      void e;
     }
 
     return 'field';
@@ -232,64 +261,39 @@ export class GlobalExceptionFilter implements ExceptionFilter {
 
   private logError(
     exception: unknown,
-    request: Request,
-    errorResponse: ErrorResponse
+    errorResponse: ErrorResponse,
+    metadata: Record<string, any>
   ) {
-    const { method, url, headers } = request;
-    const user = (request as any).user;
-    const statusCode = errorResponse.statusCode;
+    const { statusCode, error, message } = errorResponse;
+    const { method, url, userId, ip, userAgent, requestId } = metadata;
 
-    // Get the actual error details
-    let errorDetails = errorResponse.message;
-    if (errorResponse.error.validationErrors) {
-      const validationMsgs = errorResponse.error.validationErrors
-        .map((e) => e.message)
-        .join(', ');
-      errorDetails = validationMsgs;
-    }
+    // Build log message (like Go's format)
+    const logMessage = `✗ ${method} ${url} ${statusCode} - ${message}`;
 
-    // Simple one-line log
-    const logMessage = `✗ ${method} ${url} ${statusCode} - ${errorDetails}`;
+    const logMetadata = {
+      statusCode,
+      errorCode: error.code,
+      method,
+      url,
+      userId,
+      ip,
+      userAgent,
+      ...(requestId && { requestId }),
+      ...(error.validationErrors && {
+        validationErrors: error.validationErrors,
+      }),
+    };
 
-    // Only show detailed metadata in development or for 500 errors
-    const shouldShowDetails =
-      process.env['NODE_ENV'] === 'development' || statusCode >= 500;
-
+    // Log based on severity (like Go)
     if (statusCode >= 500) {
-      // Server errors: show stack trace
-      const stack = exception instanceof Error ? exception.stack : undefined;
-
-      if (shouldShowDetails) {
-        this.logger.error(logMessage, stack, {
-          userId: user?.id || user?.sub,
-          ip: headers['x-forwarded-for'] || headers['x-real-ip'] || request.ip,
-        });
-      } else {
-        this.logger.error(logMessage, stack, 'HTTP');
-      }
-    } else if (statusCode >= 400) {
-      // Client errors: simple warning
-      if (shouldShowDetails) {
-        this.logger.warn(logMessage, {
-          userId: user?.id || user?.sub,
-          errorCode: errorResponse.error.code,
-        });
-      } else {
-        this.logger.warn(logMessage, 'HTTP');
-      }
-    }
-
-    // Log security events for auth issues
-    if (statusCode === HttpStatus.UNAUTHORIZED) {
-      this.logger.logSecurity('Unauthorized access attempt', 'medium', {
-        url,
-        ip: (headers['x-forwarded-for'] as string) || request.ip,
-      });
-    } else if (statusCode === HttpStatus.FORBIDDEN) {
-      this.logger.logSecurity('Forbidden access attempt', 'high', {
-        url,
-        userId: user?.id || user?.sub,
-      });
+      this.logger.errorWithMetadata(
+        logMessage,
+        exception as Error,
+        logMetadata
+      );
+    } else {
+      // Other informational logs
+      this.logger.logWithMetadata(logMessage, logMetadata);
     }
   }
 }

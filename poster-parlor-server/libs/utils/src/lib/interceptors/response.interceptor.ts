@@ -4,14 +4,14 @@ import {
   NestInterceptor,
   ExecutionContext,
   CallHandler,
-  Inject,
-  HttpException,
+  HttpStatus,
 } from '@nestjs/common';
-import { Observable, throwError } from 'rxjs';
-import { map, catchError } from 'rxjs/operators';
-import { LoggerService } from '@poster-parler/logger';
+import { Observable } from 'rxjs';
+import { map, tap } from 'rxjs/operators';
+import { AppLogger } from '@poster-parler/logger';
+import { Request, Response } from 'express';
 
-export interface Response<T> {
+export interface SuccessResponse<T> {
   success: boolean;
   message: string;
   data: T;
@@ -20,82 +20,81 @@ export interface Response<T> {
 }
 
 @Injectable()
-export class ResponseInterceptor<T> implements NestInterceptor<T, Response<T>> {
-  constructor(@Inject(LoggerService) private readonly logger: LoggerService) {
-    this.logger.setContext(ResponseInterceptor.name);
+export class ResponseInterceptor<T>
+  implements NestInterceptor<T, SuccessResponse<T>>
+{
+  constructor(private readonly logger: AppLogger) {
+    this.logger.setContext('HTTP');
   }
 
   intercept(
     context: ExecutionContext,
     next: CallHandler
-  ): Observable<Response<T>> {
-    const httpCtx = context.switchToHttp();
-    const req = httpCtx.getRequest();
-    const res = httpCtx.getResponse();
-    const { method, url } = req as any;
+  ): Observable<SuccessResponse<T>> {
+    const ctx = context.switchToHttp();
+    const request = ctx.getRequest<Request>();
+    const response = ctx.getResponse<Response>();
+    const { method, url, ip, headers } = request;
+    const userAgent = headers['user-agent'] || 'unknown';
+    const user = (request as any).user;
+
+    const controller = context.getClass().name;
+    const handler = context.getHandler().name;
     const startTime = Date.now();
 
     return next.handle().pipe(
       map((data) => {
+        const statusCode = response.statusCode;
         const duration = Date.now() - startTime;
-        const statusCode = res?.statusCode ?? 200;
 
-        // Simple success log
-        this.logger.log(
-          `✓ ${method} ${url} ${statusCode} [${duration}ms]`,
-          'HTTP'
+        // Build success response
+        const successResponse: SuccessResponse<T> = {
+          success: true,
+          message: data?.message || 'Request successful',
+          data: data?.data !== undefined ? data.data : data,
+          timestamp: new Date().toISOString(),
+          path: url,
+        };
+
+        // Log successful requests
+        this.logger.logWithMetadata(
+          `✓ ${method} ${url} ${statusCode} - ${duration}ms`,
+          {
+            method,
+            url,
+            statusCode,
+            duration: `${duration}ms`,
+            userId: user?.id || user?.sub,
+            ip: (headers['x-forwarded-for'] as string) || ip,
+            userAgent,
+            controller,
+            handler,
+          }
         );
 
-        return {
-          success: true,
-          message: 'Request successful',
-          data,
-          timestamp: new Date().toISOString(),
-          path: req.url,
-        } as Response<T>;
+        return successResponse;
       }),
-      catchError((err) => {
-        const duration = Date.now() - startTime;
-        const statusCode = err?.status || 500;
+      tap({
+        error: (error) => {
+          const duration = Date.now() - startTime;
+          const statusCode = error?.status || HttpStatus.INTERNAL_SERVER_ERROR;
 
-        // Extract the ACTUAL error message
-        let errorMessage = 'Request failed';
-        let validationErrors: string[] = [];
-
-        if (err instanceof HttpException) {
-          const response = err.getResponse();
-
-          if (typeof response === 'object' && response !== null) {
-            const responseObj = response as any;
-
-            // Get validation errors if they exist
-            if (Array.isArray(responseObj.message)) {
-              validationErrors = responseObj.message;
-              errorMessage = `Validation failed: ${validationErrors.join(
-                ', '
-              )}`;
-            } else if (responseObj.message) {
-              errorMessage = responseObj.message;
-            } else if (responseObj.error) {
-              errorMessage = responseObj.error;
+          // Log failed requests (errors are handled by exception filter)
+          this.logger.logWithMetadata(
+            `✗ ${method} ${url} ${statusCode} - ${duration}ms`,
+            {
+              method,
+              url,
+              statusCode,
+              duration: `${duration}ms`,
+              userId: user?.id || user?.sub,
+              ip: (headers['x-forwarded-for'] as string) || ip,
+              controller,
+              handler,
+              error: error?.message,
             }
-          } else if (typeof response === 'string') {
-            errorMessage = response;
-          }
-        } else if (err?.message) {
-          errorMessage = err.message;
-        }
-
-        // Clean, informative error log
-        const logMessage = `✗ ${method} ${url} ${statusCode} [${duration}ms] - ${errorMessage}`;
-
-        if (statusCode >= 500) {
-          this.logger.error(logMessage, err.stack, 'HTTP');
-        } else {
-          this.logger.warn(logMessage, 'HTTP');
-        }
-
-        return throwError(() => err);
+          );
+        },
       })
     );
   }
