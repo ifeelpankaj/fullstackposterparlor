@@ -1,13 +1,15 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Module } from '@nestjs/common';
 import * as path from 'path';
 import { ConfigModule } from '@nestjs/config';
+
 import { validateEnv } from './config.validation';
-import { configValidationSchema } from './config.schema';
 
 const env = process.env['NODE_ENV'] || 'development';
+
 const envFilePath = path.resolve(
   process.cwd(),
-  'libs/config/src/lib/env',
+  'libs/config/src/env',
   `${env}.env`
 );
 
@@ -16,8 +18,10 @@ const envFilePath = path.resolve(
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath,
-      validationSchema: configValidationSchema,
-      validate: validateEnv,
+      validate: (config: Record<string, any>) => {
+        validateEnv(config as Record<string, unknown>);
+        return config;
+      },
     }),
   ],
 })
