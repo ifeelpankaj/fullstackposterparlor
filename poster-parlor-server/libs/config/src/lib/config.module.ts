@@ -13,16 +13,20 @@ const envFilePath = path.resolve(
   `${env}.env`
 );
 
+// Update AppConfigModule
+@Global()
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath,
-      validate: (config: Record<string, any>) => {
-        validateEnv(config as Record<string, unknown>);
-        return config;
-      },
+      cache: true,
+      expandVariables: true,
+      validate: validateEnv,
     }),
   ],
+  providers: [ConfigService, TypedConfigService],
+  exports: [ConfigService, TypedConfigService],
 })
 export class AppConfigModule {}
+
