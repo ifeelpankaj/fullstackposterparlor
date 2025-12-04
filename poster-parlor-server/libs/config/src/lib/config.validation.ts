@@ -3,71 +3,56 @@ import {
   IsEnum,
   IsNotEmpty,
   IsNumber,
-  IsString,
+  Min,
+  Max,
   validateSync,
+  ValidationError,
 } from 'class-validator';
+import { Logger } from '@nestjs/common';
 
 enum Environment {
   Development = 'development',
   Production = 'production',
-  Staging = 'staging',
+  Test = 'test',
 }
-class EnvironmentVariables {
-  @IsEnum(Environment)
+
+class EnvironmentVariable {
+  @IsEnum(Environment, {
+    message: 'NODE_ENV must be one of: development, production, test',
+  })
+  @IsNotEmpty({ message: 'NODE_ENV is required' })
   NODE_ENV!: Environment;
 
-  @IsNumber()
-  @IsNotEmpty()
+  @IsNumber({}, { message: 'PORT must be a valid number' })
+  @Min(1, { message: 'PORT must be at least 1' })
+  @Max(65535, { message: 'PORT must be less than 65536' })
+  @IsNotEmpty({ message: 'PORT is required' })
   PORT!: number;
+}
 
-  @IsString()
-  DATABASE_URL!: string;
+const logger = new Logger('ConfigValidation');
 
-  @IsString()
-  DB_NAME!: string;
-
-  @IsString()
-  GOOGLE_CLIENT_ID!: string;
-
-  @IsString()
-  FRONTEND_URL!: string;
-
-  @IsString()
-  GOOGLE_CLIENT_SECRET!: string;
-
-  @IsString()
-  GOOGLE_CALLBACK_URL!: string;
-
-  @IsString()
-  JWT_REFRESH_TOKEN_EXPIRATION!: string;
-  @IsString()
-  JWT_REFRESH_TOKEN_SECRET!: string;
-
-  @IsString()
-  JWT_ACCESS_TOKEN_EXPIRATION!: string;
-
-  @IsString()
-  JWT_ACCESS_TOKEN_SECRET!: string;
-
-  @IsString()
-  CLOUDINARY_CLOUD_NAME!: string;
-
-  @IsString()
-  CLOUDINARY_API_KEY!: string;
-
-  @IsString()
-  CLOUDINARY_API_SECRET!: string;
-
-  @IsString()
-  RAZORPAY_API_KEY!: string;
-
-  @IsString()
-  RAZORPAY_API_SECRET!: string;
+function formatValidationErrors(errors: ValidationError[]): string {
+  return errors
+    .map((err) => {
+      const constraints = err.constraints || {};
+      const messages = Object.values(constraints);
+      return `  ✗ ${err.property}: ${messages.join(', ')}`;
+    })
+    .join('\n');
 }
 
 export function validateEnv(config: Record<string, unknown>) {
-  const validatedConfig = plainToInstance(EnvironmentVariables, config, {
-    enableImplicitConversion: true, // ✅ converts strings to numbers
+  logger.log('Validating environment variables...');
+
+  // Remove empty string values before validation
+  const cleanedConfig = Object.entries(config).reduce((acc, [key, value]) => {
+    acc[key] = value === '' ? undefined : value;
+    return acc;
+  }, {} as Record<string, unknown>);
+
+  const validatedConfig = plainToInstance(EnvironmentVariable, cleanedConfig, {
+    enableImplicitConversion: true,
   });
 
   const errors = validateSync(validatedConfig, {
@@ -75,12 +60,23 @@ export function validateEnv(config: Record<string, unknown>) {
   });
 
   if (errors.length > 0) {
-    console.error(errors); // debug
-    throw new Error(
-      'Config validation error: ' +
-        errors
-          .map((err) => Object.values(err.constraints || {}).join(', '))
-          .join('; ')
+    const formattedErrors = formatValidationErrors(errors);
+
+    logger.error('Environment validation failed');
+    logger.error(formattedErrors);
+
+    // Clean exit without stack trace
+    console.error(
+      '\n✗ Please fix the above environment variables in your .env file\n'
+    );
+    process.exit(1);
+  }
+
+  logger.log('✓ Environment variables validated successfully');
+
+  if (validatedConfig.NODE_ENV === 'development') {
+    logger.debug(
+      `Loaded config: NODE_ENV=${validatedConfig.NODE_ENV}, PORT=${validatedConfig.PORT}`
     );
   }
 
