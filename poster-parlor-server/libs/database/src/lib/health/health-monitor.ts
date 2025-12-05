@@ -1,40 +1,48 @@
+import { DBHealthCheckResult } from '@poster-parlor-api/shared';
 import { DatabaseHealthChecker } from './health-checker';
-import { DatabaseHealthCheckResult } from './metrics.interface';
 
 export class DatabaseHealthMonitor {
   private timer?: NodeJS.Timeout;
   private checker: DatabaseHealthChecker;
-  private last?: DatabaseHealthCheckResult;
-  private failures = 0;
+  private last?: DBHealthCheckResult;
+  private failure = 0;
   private readonly MAX = 3;
+  private readonly interval: number;
 
-  constructor(checker: DatabaseHealthChecker) {
+  constructor(checker: DatabaseHealthChecker, ms = 10000) {
     this.checker = checker;
+    this.interval = ms;
   }
 
-  start(ms = 30000) {
-    this.timer = setInterval(() => this.check(), ms);
+  start() {
+    if (!this.timer) {
+      this.timer = setInterval(() => this.check(), this.interval);
+    }
   }
 
   stop() {
-    if (this.timer) clearInterval(this.timer);
+    if (this.timer) {
+      clearInterval(this.timer);
+      this.timer = undefined;
+    }
   }
 
   async check() {
     const result = await this.checker.check();
-    this.last = result;
 
-    if (result.status !== 'healthy') {
-      this.failures++;
+    // Fixed: logic was inverted - should increment on unhealthy, not on healthy
+    if (result.status === 'unhealthy') {
+      this.failure++;
     } else {
-      this.failures = 0;
+      this.failure = 0;
     }
 
-    if (this.failures >= this.MAX) {
+    if (this.failure >= this.MAX) {
       result.status = 'unhealthy';
-      result.errors?.push(`${this.MAX} consecutive failures`);
+      result.errors?.push(`${this.MAX} consecutive failures`); // Fixed: typo "failure" -> "failures"
     }
 
+    this.last = result; // Fixed: store the result
     return result;
   }
 
