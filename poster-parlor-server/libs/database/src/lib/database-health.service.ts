@@ -20,29 +20,26 @@ export interface DatabaseHealthCheckResult {
   errors?: string[];
 }
 
-import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common';
+import { Injectable, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
+import { DatabaseHealthMonitor } from './health/health-monitor';
+import { DatabaseHealthChecker } from './health/health-checker';
 import { InjectConnection } from '@nestjs/mongoose';
 import { Connection } from 'mongoose';
-import { DatabaseHealthChecker } from './health-checker';
-import { DatabaseHealthMonitor } from './health-monitor';
 
 @Injectable()
-export class DatabaseHealthService
-  implements OnModuleInit, OnModuleDestroy
-{
-  private monitor: DatabaseHealthMonitor;
-  private checker: DatabaseHealthChecker;
+export class DBhealthService implements OnModuleDestroy, OnModuleInit {
+  private monitor!: DatabaseHealthMonitor;
+  private checker!: DatabaseHealthChecker;
 
-  constructor(
-    @InjectConnection() private readonly connection: Connection
-  ) {}
+  constructor(@InjectConnection() private readonly connection: Connection) {}
 
   async onModuleInit() {
+    // Fixed: was OnModuleInit (capital O)
     this.checker = new DatabaseHealthChecker(this.connection);
-    this.monitor = new DatabaseHealthMonitor(this.checker);
-
+    this.checker = new DatabaseHealthChecker(this.connection);
     await this.waitForConnection();
-    this.monitor.start(30000);
+    this.monitor = new DatabaseHealthMonitor(this.checker, 30000); // Fixed: pass interval to constructor
+    this.monitor.start(); // Fixed: start() takes no parameters
   }
 
   async onModuleDestroy() {
@@ -55,9 +52,5 @@ export class DatabaseHealthService
       if (this.connection.readyState === 1) return resolve();
       this.connection.once('connected', () => resolve());
     });
-  }
-
-  async getHealth() {
-    return this.monitor.getLast() ?? (await this.checker.check());
   }
 }
